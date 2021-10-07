@@ -12,6 +12,7 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "build": "tsc",
+    "postinstall": "tsc",
     "quickstart": "node .",
     "test": "true",
     "dev": "ts-node-dev --respawn src/index.ts",
